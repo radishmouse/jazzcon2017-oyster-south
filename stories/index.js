@@ -7,10 +7,17 @@ import NavBar from '../src/components/NavBar';
 import AccountButtons from '../src/components/AccountButtons';
 import HomeButton from '../src/components/HomeButton';
 import SiteHeader from '../src/components/SiteHeader';
+import Button from './Button';
 
 const listDisplay = {
   height: '300',
-}
+};
+
+
+// storiesOf('Button', module)
+  // .add('Hello Button', () => (
+    // <Button>Hello!</Button>
+  // ))
 
 storiesOf('SiteHeader', module)
   .add('main nav', () => (
