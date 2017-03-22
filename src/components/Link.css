@@ -1,0 +1,28 @@
+
+.plain {
+  display: inline-block;
+  padding: 18px 16px;
+  font-family: LucidaGrande;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #393939;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.blue {
+  composes: plain;
+  border-radius: 8px;
+  background-color: #b1d5eb;
+}
+
+.grey {
+  composes: plain;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.25);
+}

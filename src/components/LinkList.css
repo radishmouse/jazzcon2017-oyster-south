@@ -1,0 +1,24 @@
+
+.linkList {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.listAlignBottom {
+  composes: linkList;
+  align-items: flex-end;
+}
+.listAlignMiddle {
+  composes: linkList;
+  align-items: center;
+}
+.listAlignTop {
+  composes: linkList;
+  align-items: flex-start;
+}
+
+.listCentered {
+  composes: linkList;
+  justify-content: center;
+}

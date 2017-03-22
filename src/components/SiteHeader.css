@@ -1,0 +1,14 @@
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 183px;
+  width: 1440px;
+}
+
+.headerWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1440px;
+}
